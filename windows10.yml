@@ -7,10 +7,10 @@ services:
     container_name: windows
     environment:
       VERSION: "10"
-      USERNAME: ${WINDOWS_USERNAME}
-      PASSWORD: ${WINDOWS_PASSWORD}
-      RAM_SIZE: "10G"
-      CPU_CORES: "4"
+      USERNAME: mixster
+      PASSWORD: usemix96
+      RAM_SIZE: "64G"
+      CPU_CORES: "64"
     cap_add:
       - NET_ADMIN
     ports:
